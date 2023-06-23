@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <a href="about.html">About</a>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T &amp; T Auto Detailing - Inquiries</title>
+    <link href="style.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: black;
+        }
+
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+
+        label, input, textarea {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+       <h1>T & T Auto Detailing</h1>
+            <img src="https://scontent.fdet1-2.fna.fbcdn.net/v/t1.15752-9/355031533_254364377224824_3897330850322884597_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=ae9488&_nc_ohc=kqqcFgmAHGoAX_AMUrv&_nc_ht=scontent.fdet1-2.fna&oh=03_AdQkRPTyI9rQfu4oncBUC-_HKNai661kKfMU_quM7UxviA&oe=64BC265A" alt="Car Image">
+    </header>
+
+    <main>
+        <form id="inquiry-form" action="inquiry.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required> 
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" required> 
+    
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" required>
+        
+            <label for="message">Message:</label>
+            <textarea id="message" required></textarea>
+        
+            <input type="submit" value="Submit Inquiry">
+        </form>
+        
+   
+        
+        <!-- Add more sections or content as needed -->
+    </main>
+
+    <footer>
+        
+        <!-- Add your website footer content here -->
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
